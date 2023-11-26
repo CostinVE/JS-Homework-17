@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    .myStyle{
+        background-color: yellow;
+        color: green;
+        font: bold;
+    }
+    .closebtn {
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .closebtn:hover {
+          color: #000;
+        }
+   </style>
+
+         <div> <div id="bubble" onclick="changecolor()" style="background-color: red; border-radius: 50%; color: red; text-align: center; left: 50%; max-width: 50px; height: 50px;"></div>
+            <span onclick="this.parentNode.style.display='none';" class="closebtn">X</span>
+            
+            </div>
+     <ul id="list">
+    
+    
+   
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+     </ul>
+
+     <p>Please input your username:</p>
+     <input type="text" placeholder="Username">
+     <button type="submit" onclick="submitClick()">Submit</button>
+     <div id="output"></div>
+
+     
+        
+     
+
+
+    <script src="sample.js"></script>
+</body>
+</html>
